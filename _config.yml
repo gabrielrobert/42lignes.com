@@ -18,14 +18,14 @@ url: https://gabrielrobert.github.io/42lignes.com/
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
+  - title: 'Accueil'
     url: '/'
   - title: 'Tags'
     url: '/tags'
-  - title: 'Categories'
+  - title: 'Catégories'
     url: '/categories'
     type: 'categories'
-  - title: 'About'
+  - title: 'À propos'
     url: '/about'
 
 # Owner/author information
