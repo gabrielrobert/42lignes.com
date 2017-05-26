@@ -1,25 +1,25 @@
 <div class="read-more">
   <div class="read-more-header">
-    <a href="{{ site.owner.site }}" class="read-more-btn">About the Author</a>
+    <a href="{{ include.author.site }}" class="read-more-btn">About the Author</a>
   </div><!-- /.read-more-header -->
   <div class="read-more-content author-info">
-    <h3>{{site.owner.name}}</h3>
+    <h3>{{include.author.name}}</h3>
     <div class="author-container">
-      <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
-      <div class="author-bio">{{site.owner.bio}}</div>
+      <img class="author-img" src="{{site.site}}/{{include.author.avatar}}" alt="{{include.author.name}}" />
+      <div class="author-bio">{{include.author.bio}}</div>
     </div>
     <div class="author-share">
       <ul class="list-inline social-buttons">
         {% for network in site.social %}
-          <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+          <li><a href="{{ network.site }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
         {% endfor %}
       </ul>
-      {% if site.owner.github %}
-        <a aria-label="Follow @{{site.owner.github}} on GitHub" data-style="mega" href="https://github.com/{{site.owner.github}}" class="github-button">Follow @{{site.owner.github}}</a>
+      {% if include.author.github %}
+        <a aria-label="Follow @{{include.author.github}} on GitHub" data-style="mega" href="https://github.com/{{include.author.github}}" class="github-button">Follow @{{include.author.github}}</a>
       {% endif %}
       <br>
-      {% if site.owner.twitter %}
-        <a href="https://twitter.com/{{site.owner.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{site.owner.twitter}}</a>
+      {% if include.author.twitter %}
+        <a href="https://twitter.com/{{include.author.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{include.author.twitter}}</a>
       {% endif %}
     </div>
   </div>

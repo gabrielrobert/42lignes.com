@@ -28,17 +28,23 @@ menu:
   - title: 'À propos'
     url: '/about'
 
-# Owner/author information
-owner:
-  name:           Gabriel Robert
-  site:           http://42lignes.com
-  avatar:         images/avatar.jpg
-  bio:            "Développeur @spektrummedia / @snipcart / @userboat"
-  email:          g.robert092@gmail.com
-  # Twitter nick for use in Twitter cards and follow button.
-  twitter: kvlt_grobert # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  github: gabrielrobert
+authors:
+  gabrielrobert:
+    name: Gabriel Robert
+    avatar: images/avatar.jpg
+    email: g.robert092@gmail.com
+    site: http://42lignes.com
+    bio: "Développeur @spektrummedia / @snipcart / @userboat"
+    twitter: kvlt_grobert
+    github: gabrielrobert
+  thatfrankdev:
+    name: Francis Côté
+    avatar: images/avatar.jpg
+    email: thatfrankdev@gmail.com
+    site: http://42lignes.com
+    bio: 
+    twitter: thatfrankdev
+    github: thatfrankdev
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
