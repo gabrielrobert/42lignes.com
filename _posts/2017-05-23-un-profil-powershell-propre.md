@@ -32,7 +32,7 @@ powershell-dev-environment/
 
 Le fichier `profile.ps1` est le point d'entrée de notre profil.
 
-```powershell
+{% highlight powershell %}
 # profile.ps1
 
 $env:devProfileDir = $PSScriptRoot
@@ -40,19 +40,19 @@ $env:devProfileDir = $PSScriptRoot
 . "$env:devProfileDir\_imports.ps1";
 . "$env:devProfileDir\_ui.ps1";
 . "$env:devProfileDir\_prompt.ps1";
-```
+{% endhighlight %}
 
 Noter qu'on stocke le chemin vers notre profil dans une variable d'environnement `
 $env:devProfileDir`. Ça peut être utile pour y revenir rapidement.
 
 Le fichier `_imports.ps1` sert à définir tous les modules externes qu'on souhaite charger dans chaque session PowerShell.
 
-```powershell
+{% highlight powershell %}
 # _imports.ps1
 
 Import-Module posh-git
 # et ainsi de suite...
-```
+{% endhighlight %}
 
 _ATTENTION, certains modules peuvent prendre beaucoup de temps à s'initialiser (oui c'est toi que je regarde [Carbon](http://get-carbon.org/)), alors il est important de bien réfléchir à ce qu'on veut exécuter à chaque démarrage de session._
 
@@ -60,7 +60,7 @@ _ATTENTION, certains modules peuvent prendre beaucoup de temps à s'initialiser 
 
 Les différentes couleurs d'affichage sont configurées dans le fichier `_ui.ps1`
 
-```powershell
+{% highlight powershell %}
 # _ui.ps1
 
 $console = $host.UI.RawUI
@@ -77,13 +77,13 @@ $colors.ErrorForegroundColor = "white"
 $colors.ErrorBackgroundColor = "red"
 
 Clear-Host
-```
+{% endhighlight %}
 
 ## La fonction Prompt
 
 Prompt est une fonction spéciale de PowerShell qui est exécutée pour générer la zone de saisie de commande. Lorsqu'elle est définie dans le script de profil, elle nous donne entièrement le contrôle sur le rendu de cette zone. Voici ma fonction Prompt :
 
-```powershell
+{% highlight powershell %}
 # _prompt.ps1
 
 function Prompt {    
@@ -106,7 +106,7 @@ function Prompt {
 
     return ""
 }
-```
+{% endhighlight %}
 
 Et voici un aperçu du résultat dans le terminal :
 
@@ -130,7 +130,7 @@ Ce qu'on doit faire, c'est créer ce fichier s'il n'existe pas encore, et y ajou
 
 L'étape précédente peut facilement être automatisée avec un petit script d'installation tout simple.
 
-```powershell
+{% highlight powershell %}
 # install.ps1
 
 $installedHint = "#https://github.com/thatfrankdev/powershell-dev-environment"
@@ -148,7 +148,7 @@ if(-not $installed){
     Add-Content $profile ". `"$PSScriptRoot\src\profile.ps1`" $installedHint"
     powershell.exe
 }
-```
+{% endhighlight %}
 
 Noter l'utilisation de la variable `$installedHint`. L'insertion d'un commentaire au bout de la ligne permet à ce script d'être roulé plusieurs fois sans multiplier l'initialisation de notre profil.
 
