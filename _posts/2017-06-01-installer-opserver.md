@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Système basique de monitoring de servers SQL"
+title: "Système basique de monitoring de serveurs SQL"
 modified: 2017-06-01
 tags: [monitoring, sql server]
 categories: [code]
