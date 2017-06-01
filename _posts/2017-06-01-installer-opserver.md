@@ -7,8 +7,6 @@ categories: [code]
 author: gabrielrobert
 ---
 
-# Système basique de monitoring de servers SQL.
-
 Chez [Spektrum Media](http://spektrummedia.com), nous avons près d'une dizaine de serveurs ayant chacune d'elles plusieurs bases de données. Au début, gérer et maintenir une ou deux machines est un jeu d'enfant. Mais plus le chiffre gonfle, et plus on se rend compte d'un manque: _un outil qui permet en un coup d'oeil d'avoir la santé de l'ensemble de notre flotte de serveurs_.
 
 C'est à ce moment qu'on a découvert [Opserver](https://github.com/opserver/Opserver) de [Stack Exchange](https://stackexchange.com/), un outil OSS qui permet ce genre de choses. Sachant que les gens chez Stack Exchange ont aussi une stack [fondamentalement basée sur .NET](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/), pourquoi ne pas l'essayer?
