@@ -1,6 +1,6 @@
 <div class="read-more">
   <div class="read-more-header">
-    <a href="{{ include.author.site }}" class="read-more-btn">About the Author</a>
+    <a href="{{ include.author.site }}" class="read-more-btn">À propos de l'auteur</a>
   </div><!-- /.read-more-header -->
   <div class="read-more-content author-info">
     <h3>{{include.author.name}}</h3>
@@ -15,11 +15,11 @@
         {% endfor %}
       </ul>
       {% if include.author.github %}
-        <a aria-label="Follow @{{include.author.github}} on GitHub" data-style="mega" href="https://github.com/{{include.author.github}}" class="github-button">Follow @{{include.author.github}}</a>
+        <a aria-label="Follow @{{include.author.github}} on GitHub" data-style="mega" href="https://github.com/{{include.author.github}}" class="github-button">@{{include.author.github}}</a>
       {% endif %}
       <br>
       {% if include.author.twitter %}
-        <a href="https://twitter.com/{{include.author.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{include.author.twitter}}</a>
+        <a href="https://twitter.com/{{include.author.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">@{{include.author.twitter}}</a>
       {% endif %}
     </div>
   </div>
