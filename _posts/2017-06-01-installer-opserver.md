@@ -120,23 +120,19 @@ On y est pour notre preuve de concept. C'est maintenant le moment de pousser ça
 
 On ne va pas se casser la tête et créer une webapp.
 
-`myResourceGroup` = Default-Web-EastUS
-`plan` = Default1
-https://username@<app-name>.scm.azurewebsites.net/<app-name>.git
-
 ```powershell
 # Connexion
 az login -u {VOTRE_USERNAME} -u {VOTRE_PASSWORD}
 
 # Création de l'application. Notez qu'il faut changer `opserver` pour un nom unique.
-az webapp create --name opserver --resource-group Default-Web-EastUS --plan Default1
+az webapp create --name opserver --resource-group {resource-group-name} --plan {plan-name}
 
 # Créer un user pour le deployment
 az appservice web deployment user set --user-name <username> --password <password>
 
 # Configurer l'application pour utiliser le git local. Utilisez un repo distinct de celui de github/opserver.
 # Sauvegardez le résultat sous le format suivant: https://<username>@<app-name>.scm.azurewebsites.net:443/<app-name>.git
-az appservice web source-control config-local-git --name <app-name> --resource-group Default-Web-EastUS --query url --output tsv
+az appservice web source-control config-local-git --name <app-name> --resource-group {resource-group-name} --query url --output tsv
 
 # Pousser le répertoire local vers l'environnement
 git remote add azure https://username@<app-name>.scm.azurewebsites.net/<app-name>.git
