@@ -18,15 +18,11 @@ url: //future.42lignes.com
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Accueil'
-    url: '/'
   - title: 'Tags'
     url: '/tags'
   - title: 'Catégories'
     url: '/categories'
     type: 'categories'
-  - title: 'À propos'
-    url: '/about'
 
 authors:
   gabrielrobert:
