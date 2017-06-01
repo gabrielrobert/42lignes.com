@@ -124,7 +124,7 @@ On ne va pas se casser la tête et créer une webapp.
 `plan` = Default1
 https://username@<app-name>.scm.azurewebsites.net/<app-name>.git
 
-```bash
+```powershell
 # Connexion
 az login -u {VOTRE_USERNAME} -u {VOTRE_PASSWORD}
 
