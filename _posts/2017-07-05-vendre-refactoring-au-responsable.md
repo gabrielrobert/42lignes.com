@@ -41,7 +41,7 @@ Il ne faut pas leur en parler. __Vraiment__. Si vous tenez à conserver votre ef
 Si votre travail est de desservir un client en mode forfaitaire ou au taux horaire:
 
 - Le client n'a pas à savoir qu'un refactoring a été effectué dans son application. Je crois cependant qu'il faut être honnête et partager le bénéfice d'une telle pratique, même si c'est plus compliqué à expliquer à quelqu'un en dehors du domaine.
-- Il faut toujours faire du refactoring en ayant une plus-value en tête et pas parce que ça nous tente.
+- Il faut toujours faire du refactoring en ayant une plus-value en tête et non pas parce que ça nous tente.
 - Modifier des bouts de code qui sont en production depuis un bon moment et qui ne requièrent aucune modification, peu importe la laideur de son implémentation, ne mérite pas d'être réécrit.
 
 
