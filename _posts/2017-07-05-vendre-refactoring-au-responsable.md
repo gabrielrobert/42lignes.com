@@ -33,7 +33,7 @@ Les responsables de produit visant la qualité sur le long terme du produit sero
 
 ## Si le responsable est axé sur le temps et l'argent
 
-Il ne faut pas leur en parler. __Vraiment__. Si vous tenez à conserver votre efficacité et vous tenez à augmenter votre productivité en livrant plus rapidement, gonflez vos estimations. Vous serez gagnant sur le long terme.
+Il ne faut pas leur en parler. __Vraiment__. Si vous tenez à conserver votre efficacité et vous tenez à augmenter votre productivité en livrant plus rapidement, gonflez vos estimations afin de permettre de corriger les erreurs du passé. Vous serez gagnant sur le long terme. Il faut cependant faire preuve de jugement, très important!
 
 
 ## En mode service, ça donne quoi?
