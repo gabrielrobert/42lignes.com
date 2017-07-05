@@ -28,7 +28,7 @@ Si on vous demande quels sont les bien faits de la réécriture de code, les poi
 
 ## Si le responsable est beaucoup plus axé sur la qualité du produit
 
-Les responsables de produit visant la qualité sur le long terme du produit seront ceux qui auront le plus facilement conscience de la nécessité du refactoring. Ces gens savent qu'un produit de qualité doit être capable d'itérer et se renouveler rapidement et convenablement, quelles que soient les contraintes du marché. Un produit de qualité est conçu de modules correctement pensé, et implanté de la meilleure manière possible. *Cependant, la meilleure implantation est rarement la première, d'où l'importance du refactoring.* 
+Les responsables de produit visant la qualité sur le long terme du produit seront ceux qui auront le plus facilement conscience de la nécessité du refactoring. Ces gens savent qu'un produit de qualité doit être capable d'itérer et se renouveler rapidement et convenablement, quelles que soient les contraintes du marché. Un produit de qualité est composé de modules correctement pensé, et implanté de la meilleure manière possible. *Cependant, la meilleure implantation est rarement la première, d'où l'importance du refactoring.* 
 
 
 ## Si le responsable est axé sur le temps et l'argent
