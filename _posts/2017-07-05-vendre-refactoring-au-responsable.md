@@ -22,7 +22,7 @@ Si on vous demande quels sont les bien faits de la réécriture de code, les poi
 
 - Amélioration de la maintenabilité du programme.
 - Augmentation de la vélocité sur le moyen / long terme.
-- Les nouveaux développeurs auront une plus grande facilité à introduire le projet
+- Introduction des nouveaux développeurs grandement facilitée
 - Un code retravaillé est beaucoup plus simple à améliorer ensuite en cas de problème de performance. Le fait que les méthodes soient courtes et bien exprimées rend le travail de profilage beaucoup plus simple.
 
 
