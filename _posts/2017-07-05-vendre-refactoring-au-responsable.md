@@ -9,7 +9,7 @@ author: gabrielrobert
 
 
 
-Dans un contexte traditionnel agile, la réécriture de code doit systématiquement être pratiquée en parallèle d'une fonctionnalité. Le refactoring n'apporte aucune plus-value aux utilisateurs, mais bien à nos collègues et aux prochains individus qui auront à implémenter de nouvelles fonctionnalités. Dans un tel contexte, cela peut devenir plutôt complexe à saisir pour un responsable de projet, qui parfois n'a aucune connaissance du code, d'approuver ce genre de travaux.
+Dans un contexte traditionnel agile, la réécriture de code doit systématiquement être pratiquée en parallèle d'une fonctionnalité. Le refactoring n'apporte aucune plus-value aux utilisateurs, mais bien à nos collègues et aux prochains individus qui auront à implémenter de nouvelles fonctionnalités. Dans un tel contexte, cela peut devenir plutôt difficile pour un responsable de projet, qui parfois n’a aucune connaissance du code, d’approuver ce genre de travaux.
 
 __Ça ne devrait pas être le cas.__
 
