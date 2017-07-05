@@ -42,7 +42,7 @@ Si votre travail est de desservir un client en mode forfaitaire ou au taux horai
 
 - Le client n'a pas à savoir qu'un refactoring a été effectué dans son application. Je crois cependant qu'il faut être honnête et partager le bénéfice d'une telle pratique, même si c'est plus compliqué à expliquer à quelqu'un en dehors du domaine.
 - Il faut toujours faire du refactoring en ayant une plus-value en tête et non pas parce que ça nous tente.
-- Modifier des bouts de code qui sont en production depuis un bon moment et qui ne requièrent aucune modification, peu importe la laideur de son implémentation, ne mérite pas d'être réécrit.
+- Des bouts de code qui sont en production depuis un bon moment et qui ne requièrent aucune modification, peu importe la laideur de leur implémentation, ne méritent pas d’être réécrit.
 
 
 Si l'on vous dit que le refactoring ne devrait pas être facturé au client, je crois que c'est également faux. Prenons un contexte moins précis et dirigeons-nous vers l'automobile: lorsque vous achetez une voiture, vous l'utilisez pendant un certain moment. Vous roulez et profitez pleinement de celle-ci, cependant il vient un jour où l'huile sera usée et vous devrez débloquer un effort monétaire pour le faire. Le mécanicien est en droit de vous facturer ses services et le droit est identique dans un contexte logiciel. Nous sommes des professionnels oeuvrant sur des solutions qui évolues, il ne faut pas être surpris si à un moment ou un autre il faut faire de la maintenance.
