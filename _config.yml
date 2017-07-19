@@ -2,7 +2,7 @@ title:            42 lignes à l'heure
 description:      "On raisonne sur différents sujets: code, architecture et méthodes de travail. On prône l'agilité et surtout le retour sur investissement."
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: 42lignes
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 excerpt_separator: <!--more-->
