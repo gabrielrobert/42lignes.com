@@ -52,13 +52,13 @@ Le _scraper_ est exécuté quotidiennement, et chaque exécution produit un rés
 
 ## Transformer les données
 
-Maintenant les données sont extraites sur une base quotidienne et accessibles en tout temps, je dois maintenant les transformer en calendrier [iCal](https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/).
+Maintenant que les données sont extraites sur une base quotidienne et accessibles en tout temps, je dois maintenant les transformer en calendrier [iCal](https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/).
 
-J'utiliserai une autre superbe fonctionnalité d'Apifier
+J'utiliserai une autre superbe fonctionnalité d'Apifier. Il est possible de notifier un service externe via _webhook_ à la fin de chaque execution du _scraper_. Ce sera le point de départ de la transformation.
+
+J'urtiliserai Azure Functions. C'est est la technologie _serverless_ de l'offre cloud de Microsoft. Récemment, l'outillage Azure Functions est apparu dans la version _preview_ de Visual Studio 2017. Je n'irai pas dans le détail de comment créer une fonction, tout est détaillé [ici].(https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio).
 
 TODO
-
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio
 
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob
 
