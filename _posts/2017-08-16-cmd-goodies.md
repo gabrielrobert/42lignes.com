@@ -20,3 +20,12 @@ Get-ChildItem .\ -include bin,obj -Recurse | foreach ($_) { remove-item $_.fulln
 ```
 
 [Voir les sources](https://stackoverflow.com/questions/755382/i-want-to-delete-all-bin-and-obj-folders-to-force-all-projects-to-rebuild-everyt)
+
+
+### Lire un fichier en continue (tail)
+
+```powershell
+Get-Content "<path>" -Wait
+```
+
+[Voir les sources](https://stackoverflow.com/questions/4426442/unix-tail-equivalent-command-in-windows-powershell)
