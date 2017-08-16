@@ -29,3 +29,13 @@ Get-Content "<path>" -Wait
 ```
 
 [Voir les sources](https://stackoverflow.com/questions/4426442/unix-tail-equivalent-command-in-windows-powershell)
+
+### Supprimer des fichiers existants suite à la mise en place d'un `.gitignore`
+
+```bash
+git rm -r --cached . 
+git add .
+git commit -am "Remove ignored files"
+```
+
+[Voir les sources](https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
