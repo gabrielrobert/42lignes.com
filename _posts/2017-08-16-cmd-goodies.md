@@ -45,3 +45,5 @@ git commit -am "Remove ignored files"
 ```powershell
 Get-Package -ProjectName "PROJECT_NAME" | Uninstall-Package -ProjectName "PROJECT_NAME" -RemoveDependencies
 ```
+
+[Voir les sources](https://stackoverflow.com/questions/28596666/how-do-i-uninstall-all-nuget-packages-from-a-solution-in-visual-studio-2013)
