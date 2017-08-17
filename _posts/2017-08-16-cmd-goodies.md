@@ -39,3 +39,9 @@ git commit -am "Remove ignored files"
 ```
 
 [Voir les sources](https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
+
+### Supprimer tous les packages d'un projet (nuget / Package manager)
+
+```powershell
+Get-Package -ProjectName "PROJECT_NAME" | Uninstall-Package -ProjectName "PROJECT_NAME" -RemoveDependencies
+```
