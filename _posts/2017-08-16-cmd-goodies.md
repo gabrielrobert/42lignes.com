@@ -47,3 +47,9 @@ Get-Package -ProjectName "PROJECT_NAME" | Uninstall-Package -ProjectName "PROJEC
 ```
 
 [Voir les sources](https://stackoverflow.com/questions/28596666/how-do-i-uninstall-all-nuget-packages-from-a-solution-in-visual-studio-2013)
+
+### Supprimer les fichiers d'un projet Xamarin pour charger les dépendences de nouveau
+
+```bash
+rimraf "C:\Users\YOUR_USER\AppData\Local\Xamarin"
+```
