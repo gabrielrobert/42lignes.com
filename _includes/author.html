@@ -9,11 +9,6 @@
       <div class="author-bio">{{include.author.bio}}</div>
     </div>
     <div class="author-share">
-      <ul class="list-inline social-buttons">
-        {% for network in site.social %}
-          <li><a href="{{ network.site }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
-        {% endfor %}
-      </ul>
       {% if include.author.github %}
         <a aria-label="Follow @{{include.author.github}} on GitHub" data-style="mega" href="https://github.com/{{include.author.github}}" class="github-button">@{{include.author.github}}</a>
       {% endif %}
