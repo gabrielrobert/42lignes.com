@@ -61,3 +61,11 @@ Get-Project -All | Uninstall-Package "PACKAGE_NAME" -RemoveDependencies
 ```bash
 rimraf "C:\Users\YOUR_USER\AppData\Local\Xamarin"
 ```
+
+### Place l'environnement courrant en mode "Development" lors de l'utilisation d'une application ASP .NET Core.
+
+```powershell
+$Env:ASPNETCORE_ENVIRONMENT = "Development"
+``
+
+[Voir les sources](https://stackoverflow.com/questions/39944489/startup-cs-returns-wrong-environment)
