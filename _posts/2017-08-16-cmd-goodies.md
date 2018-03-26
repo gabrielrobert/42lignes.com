@@ -66,6 +66,21 @@ rimraf "C:\Users\YOUR_USER\AppData\Local\Xamarin"
 
 ```powershell
 $Env:ASPNETCORE_ENVIRONMENT = "Development"
-``
+```
 
 [Voir les sources](https://stackoverflow.com/questions/39944489/startup-cs-returns-wrong-environment)
+
+
+### Supprimer les branches locales et remote d'un répertoire git
+
+```bash
+#!/bin/sh
+# Deletes all local and remote tags.
+# `git delete-tag` comes from git-extras:
+# https://github.com/visionmedia/git-extras
+# Is very slow but will get there in the end.
+git ls-remote --tags \
+| awk '!/\^{}/' \
+| awk -F tags\/ '{ print $2}' \
+| xargs -L 1 git delete-tag
+```
