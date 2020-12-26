@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: //42lignes.com
+url: //code.gabrielrobert.com
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -28,18 +28,10 @@ authors:
     name: Gabriel Robert
     avatar: images/author_gabrielrobert.jpg
     email: g.robert092@gmail.com
-    site: http://42lignes.com
-    bio: "Développeur @spektrummedia / @snipcart / @userboat"
+    site: http://gabrielrobert.com
+    bio: "Développeur @fourwaves"
     twitter: kvlt_grobert
     github: gabrielrobert
-  thatfrankdev:
-    name: Francis Côté
-    avatar: images/author_thatfrankdev.jpg
-    email: thatfrankdev@gmail.com
-    site: http://42lignes.com
-    bio: "Père d'une future geek, Développeur @spektrummedia"
-    twitter: thatfrankdev
-    github: thatfrankdev
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
