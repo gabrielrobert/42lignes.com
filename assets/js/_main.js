@@ -86,12 +86,3 @@ $(document).ready(function(){
     ]
   });
 });
-
-var sharing = function(){
-    $(document).ready(function(){
-      $("body").floatingSocialShare({
-        buttons: ["facebook","twitter","google-plus", "linkedin", "pinterest"],
-        text: "Share with "
-      });
-    });
-};//sharing
