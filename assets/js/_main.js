@@ -72,17 +72,6 @@ $(document).ready(function(){
       "pageshadow",
       "theme-dark"
     ],
-    "counters": true,
-    "navbars": [
-      {
-        "position": "bottom",
-        "content": [
-          "<a class='fa fa-search' href='/search'></a>",
-          "<a class='fa fa-envelope' href='#/'></a>",
-          "<a class='fa fa-twitter' href='#/'></a>",
-          "<a class='fa fa-facebook' href='#/'></a>"
-        ]
-      }
-    ]
+    "counters": true
   });
 });
